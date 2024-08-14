@@ -1,5 +1,6 @@
 # Design system
 
+Jovan
 Le projet design system AXA France a pour objectif de proposer un point d'entrée unique pour utiliser le design system AXA France au sein de vos projets.
 
 Il propose d'utiliser les deux designs systems principaux :
@@ -35,8 +36,6 @@ import home from "@material-symbols/svg-400/outlined/home.svg";
 import { Svg } from "@axa-fr/design-system-slash-react/client";
 
 const App = () => {
-    return (
-        <Svg src={home} />
-    )
-}
+  return <Svg src={home} />;
+};
 ```
